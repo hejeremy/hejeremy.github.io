@@ -45,16 +45,25 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="page-header">
-                        <h1>About Me</h1>
+                        <h1>Contact</h1>
                     </div>
                     <div class="row">
-                        <div class="col-md-3">
-                            <img class="img-thumbnail" id="myImage" src="assets/images/profile.jpg" alt="image of me here">
-                        </div>
-                        <div class="col-md-9">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus odio vel tortor fermentum elementum. Cras mauris lacus, rhoncus vitae orci eget, lobortis rutrum velit. Suspendisse quis blandit sapien. Integer a odio laoreet, blandit nulla quis, luctus diam. Vestibulum tristique sit amet ligula id faucibus. Proin at libero cursus justo sollicitudin placerat. Sed vulputate eu erat at gravida.
-                            <br>
-                            Sed tincidunt ipsum velit, eu egestas erat pretium bibendum. Sed tincidunt ac elit at sodales. Ut suscipit sapien sem, ut pretium erat lacinia sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sollicitudin magna euismod tincidunt auctor. Sed sit amet velit nec lacus consequat porttitor. Ut a mi vitae orci malesuada sagittis tempor a nibh.</p>
+                        <div class="col-md-12">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control" id="name" placeholder="e.g. John Smith">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="e.g. johnsmith@email.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message:</label>
+                                    <textarea class="form-control" rows="10" id="message"></textarea>
+                                </div>
+                            </form>
+                            <button class="btn btn-default" type="button">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -79,7 +88,7 @@
             </div>
         </div>
 
-        <footer class="footer" style="clear: both; width: 100%; position: fixed; bottom: 0px; height: 50px; background-color: #cccccc;">
+        <footer class="footer" style="clear: both; width: 100%; position: relative; fixed: 0px; height: 50px; background-color: #cccccc;">
             <div class="container">
                 <p style="line-height: 50px; text-align: center;" class="text-muted">&copy; Copyright 2017 | Jeremy He</p>
             </div>
